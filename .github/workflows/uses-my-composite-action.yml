@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: foo
-        uses: OWNER/REPONAME/ACTION_FOLDER@BRANCH_NAME # Zmienić
+        uses: szkoleniegh/GitHub_Actions_secrets/my-composite-action@main
         with:
           who-to-greet: Dawid
       - run: echo random-number "$RANDOM_NUMBER"
